@@ -63,6 +63,7 @@ but_more.addEventListener('click', ()=>{
       but_more.style.color = "#212529";
       but_details.style.height = "300px";
       high_school.style.marginTop = "1.25rem";
+      
     } else {
       but_more.style.color = "#F7F7EF";
       but_details.style.height = "0px";
@@ -111,7 +112,7 @@ high_school_more.addEventListener('click', ()=> {
       high_school_more.style.color = "#212529";
       high_school_details.style.height = "580px";
       high_school_details.style.marginTop = "2rem";
-      high_school_details.style.width = "400px";
+      high_school_details.style.width = "100%";
     } else {
       high_school_more.style.color = "#F7F7EF";
       high_school_details.style.height = "0px";

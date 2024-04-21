@@ -173,13 +173,14 @@ body {
     text-decoration-line: underline;
 }
 
-.container-projects .container-github {
+.container-projects .container-github a {
     display: flex;
     align-items: end;
     margin-top: 3rem;
     margin-left: 4rem;
     cursor: pointer;
     color: #F7F7EF;
+    text-decoration-line: none;
 }
 .container-projects .container-github p {
     margin-bottom: 0;
@@ -215,9 +216,10 @@ body {
     .container-projects .project-link {
         transform: translate(0);
     }
-    .container-projects .container-github {
-        margin-top: 0.625rem;
-        height: 5rem;
+    .container-projects .container-github a {
+        margin: 0;
+        padding: 5%;
+        margin-left: 2%;
     }
 }
 
@@ -404,6 +406,9 @@ body {
     .container-school .high-school {
         flex-direction:column;
     }
+    .container-school .high-school-details.details, .container-school .but-details {
+        width: 100%;
+    }
 
     
 }
@@ -548,11 +553,11 @@ body {
 }
 
 /*Other*/
-#projects, #skills, #career, #contact, #exp{
+#projets, #competences, #parcours, #contact, #experiences{
     height: 50px;
     scroll-snap-align: start;
 }
 
-#top {
+#home {
     height: 6.7rem;
 }
