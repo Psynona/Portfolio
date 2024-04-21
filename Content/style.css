@@ -548,11 +548,11 @@ body {
 }
 
 /*Other*/
-#projects, #skills, #career, #contact, #exp{
+#projets, #competences, #parcours, #contact, #experiences{
     height: 50px;
     scroll-snap-align: start;
 }
 
-#top {
+#home {
     height: 6.7rem;
 }
