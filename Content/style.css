@@ -132,7 +132,6 @@ body {
 /*Projects*/
 .container-projects {
     margin: 0;
-    height: 95vh;
     text-align: center;
     background-color: #377283;
     width: 100%;
@@ -175,8 +174,9 @@ body {
 
 .container-projects .container-github a {
     display: flex;
-    align-items: end;
-    margin-top: 3rem;
+    height: 60px;
+    align-items: center;
+    margin-top: 2%;
     margin-left: 4rem;
     cursor: pointer;
     color: #F7F7EF;
